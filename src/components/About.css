@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@300&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@300&family=Poppins:wght@400;500;600&family=Varela+Round&display=swap');
+
+.backimg{
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    position:absolute
+
+}
+
+.hero-container{
+   
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    justify-content: center;
+    background-image: linear-gradient(to left, #123c69, #242582);
+}
+
+.hero-container > h1{
+    
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.hero-container > p{
+    margin-top: 10px;
+ 
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;}
+
+.btn{
+    border: 0.01px solid white;
+    color: #fff;
+    margin: 6px;
+}
+
+.watch{
+    color: black;
+    background-color: #fff;
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 960px){
+    .hero-container >h1{
+        font-size: 50px;
+        margin-top: 75px;
+    }
+
+}
+    
+@media screen and  (max-width: 769px){
+    .hero-container > h1{
+        font-size: 35px;
+        margin-top: 50px;
+    }
+    .hero-container > p{
+        font-size: 20px;
+    }
+    .btn{
+        display: block;
+        text-decoration: none;
+        width: 100%;
+    }
+
+}
+
+@media screen and  (max-width: 570px){
+    .hero-container > h1{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .hero-container > p{
+        font-size: 15px;
+    }
+    .btn{
+        display: block;
+        text-decoration: none;
+        width: 100%;
+    }
+
+}
+
+
+
+
+
+
+body {
+    font-family: 'Varela Round', sans-serif;
+  background-color: #131417;  
+}
+p {
+  
+  margin-right: 19em;
+  margin-bottom: -7em;
+  color: #e5e5e5;
+}
+.hero-container {
+  color: #e5e5e5;
+  font-size: 2.26rem;
+  text-transform: uppercase;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.animation {
+  height:50px;
+  overflow:hidden;
+  margin-bottom: 10%;
+  color: #e5e5e5;
+  
+}
+
+.animation > div > div {
+  
+  height:2.81rem;
+  margin-bottom: 2.81rem;
+  display:inline-block;
+  color: #e5e5e5;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+.first div {
+  background-color:#ac3b61;
+}
+.second div {
+  background-color:#ac3b61;
+}
+.third div {
+  background-color:#ac3b61;
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -5.62rem;}
+  30% {margin-top: -5.62rem;}
+  40% {margin-top: -11.24rem;}
+  60% {margin-top: -11.24rem;}
+  70% {margin-top: -5.62rem;}
+  80% {margin-top: -5.62rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+
+
+
+
+
+
+.container {
+    position: relative;
+    width: 25%;
+    margin-left:27em;
+    margin-bottom: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+ 
+  
+ 
+  
+ 

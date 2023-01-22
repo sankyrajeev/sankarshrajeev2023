@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@300&family=Poppins:wght@400;500;600&family=Varela+Round&display=swap');
 
 :root {
-    --background: #2f2fa2;
+    --background: #123c69;
     --navbartext: #F64C72;
+    --textcolor:#EEE2DC;
 }
 
 .navbar-brand {
     font-family: 'Bad Script', cursive;
     margin-left: 2em;
-    color: var(--navbartext);
+    color: var(--textcolor);
     font-weight: bolder;
     font-size: 1.5em;
 }
@@ -17,7 +18,7 @@
 .navbar {
     /* background-color: var(--background) */
     /* background-color: #242582; */
-    background-image: linear-gradient(to left, #2f2fa2, #242582);
+    background-image: linear-gradient(to left, #123c69, #242582);
 }
 
 .hb {
@@ -56,6 +57,10 @@
     margin-left: 1.2em;
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
+    
+}
+.nav-link{
+    color: var(--textcolor);
 }
 .nav-item:hover{
     background-color: var(--background);
@@ -77,3 +82,10 @@
    
 
 }
+
+
+
+
+
+
+
