@@ -9,57 +9,66 @@ import img5 from '../images/image5.jpeg'
 import img6 from '../images/image6.jpeg'
 import img7 from '../images/image7.jpeg'
 
+import backsvg1 from '../images/wavehaikei2.svg'
+
+
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1> Technology</h1>
-      <div className="cards__container">
-        <div className="cards__wrapper">
-          
+    <main>
+      <div className='cards'>
+        <h1> Technology</h1>
+        <div className="cards__container">
+          <div className="cards__wrapper">
+
             <ul className="cards__items">
-            <CardItem
-              src={img3}
-              text="Front-end Developement"
-              label="UI/UX Applications"
-              path="/front-end"
-            />
-            <CardItem
-              src={img5}
-              text="Full Stack Applications"
-              label="MERN"
-              path="/fullstack"
-            />
-             <CardItem
-              src={img4}
-              text="Artificial Intelligence"
-              label="AI Powered Projects"
-              path="/ai"
-            />
+              <CardItem
+                src={img3}
+                text="Front-end Developement"
+                label="UI/UX Applications"
+                path="/front-end"
+              />
+              <CardItem
+                src={img5}
+                text="Full Stack Applications"
+                label="MERN"
+                path="/fullstack"
+              />
+              <CardItem
+                src={img4}
+                text="Artificial Intelligence"
+                label="AI Powered Projects"
+                path="/ai"
+              />
 
-          </ul>
+            </ul>
 
-          <h1 className='cards2'> ART</h1>
-          <ul className="cards__items">
-            <CardItem
-              src={img6}
-              text="Front-end Developement"
-              label="UI/UX Applications"
-              path="/front-end"
-            />
-           
-             <CardItem
-              src={img7}
-              text="Artificial Intelligence"
-              label="AI Powered Projects"
-              path="/ai"
-            />
+            <h1 className='cards2'> ART</h1>
+            <ul className="cards__items">
+              <CardItem
+                src={img6}
+                text="Front-end Developement"
+                label="UI/UX Applications"
+                path="/front-end"
+              />
 
-          </ul>
+              <CardItem
+                src={img7}
+                text="Artificial Intelligence"
+                label="AI Powered Projects"
+                path="/ai"
+              />
+
+            </ul>
+            
+
+          </div>
+          
         </div>
+        
       </div>
-
-    </div>
+     
+    </main>
   );
 }
 
