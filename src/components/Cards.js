@@ -17,7 +17,7 @@ function Cards() {
   return (
     <main>
       <div className='cards'>
-        <h1> Technology</h1>
+        <h1 className='name'> TECHNOLOGY</h1>
         <div className="cards__container">
           <div className="cards__wrapper">
 
@@ -43,20 +43,20 @@ function Cards() {
 
             </ul>
 
-            <h1 className='cards2'> ART</h1>
+            <h1 className='cards2 name'> ART</h1>
             <ul className="cards__items">
               <CardItem
                 src={img6}
-                text="Front-end Developement"
-                label="UI/UX Applications"
-                path="/front-end"
+                text="Music Production"
+                label="Music "
+                path="/music"
               />
 
               <CardItem
                 src={img7}
                 text="Artificial Intelligence"
-                label="AI Powered Projects"
-                path="/ai"
+                label="AI Art"
+                path="/aiart"
               />
 
             </ul>

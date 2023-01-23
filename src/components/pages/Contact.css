@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Inter:wght@300&family=Poppins:wght@400;500;600&family=Varela+Round&display=swap');
+
+:root {
+    --background: #123c69;
+    --navbartext: #F64C72;
+    --textcolor:#EEE2DC;
+}
 .contact{
-    background-color: #242582;
+     background-image: linear-gradient(to left, #123c69, #242582);
+    color: var(--textcolor);
+    font-family: 'Varela Round', sans-serif;
+    padding-bottom: 8em;
+
+}
+h1{
+    padding-top: 2em;;
+    color: var(--textcolor);
+}
+
+.btn{
+    margin-left: 25%;
+    margin-right: 0;
+    align-items: center;
+    
+    
 }

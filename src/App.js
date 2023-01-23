@@ -4,7 +4,9 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Home from './components/pages/Home';
-import Frontend from './components/pages/Frontend';
+
+import Footer from './components/Footer';
+import Frontend from './components/Frontend';
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
 
 
         </Routes>
+        
       
       </>
     

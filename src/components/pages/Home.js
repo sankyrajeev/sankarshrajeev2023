@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About';
 import Cards from '../Cards';
+import Footer from '../Footer';
 import Contact from './Contact';
 
 function Home() {
@@ -9,6 +10,7 @@ function Home() {
       <About />
       <Cards />
       <Contact />
+      <Footer />
     </>
   );
 }
