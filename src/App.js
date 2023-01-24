@@ -7,6 +7,9 @@ import Home from './components/pages/Home';
 
 import Footer from './components/Footer';
 import Frontend from './components/Frontend';
+import FullStack from './components/Fullstack';
+import Cards from './components/Cards';
+import Contact from './components/pages/Contact';
 
 function App() {
   return (
@@ -26,12 +29,26 @@ function App() {
               path="/front-end"
               element={<Frontend />}
             />
+            <Route
+              path="/fullstack"
+              element={<FullStack />}
+            />
+             <Route
+              path="/portfolio"
+              element={<Cards/>}
+             
+            />
+            
+             <Route
+              path="/contact"
+              element={<Contact/>}
+            />
            
 
 
         </Routes>
         
-      
+        <Footer />
       </>
     
   </Router>

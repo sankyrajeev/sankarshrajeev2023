@@ -10,7 +10,7 @@ function Home() {
       <About />
       <Cards />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

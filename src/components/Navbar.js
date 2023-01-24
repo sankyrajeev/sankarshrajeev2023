@@ -18,14 +18,15 @@ function Navbar() {
                             <li className="nav-item ">
                                 <Link to="/" className="nav-link active text-white" aria-current="page">HOME</Link>
                             </li>
+                            
+                            <li className="nav-item">
+                                <Link to="/portfolio" className="nav-link active text-white">PORTFOLIO</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to="/contact" className="nav-link active text-white" >CONTACT</Link>
+                            </li>
                             <li className="nav-item ">
-                                <Link to="/about" className="nav-link active text-white" aria-current="page">ABOUT</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/services" className="nav-link active text-white">PORTFOLIO</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link to="/products" className="nav-link active text-white" >CONTACT</Link>
+                                <Link to="/blog" className="nav-link active text-white" aria-current="page">BLOG</Link>
                             </li>
                             
                         </ul>

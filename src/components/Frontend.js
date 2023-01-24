@@ -97,7 +97,7 @@ function Frontend() {
         </div>
         
       </div>
-      <Footer />
+       
     </main>
   );
 }
