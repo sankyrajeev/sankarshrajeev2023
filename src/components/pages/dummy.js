@@ -1,55 +1,21 @@
-{/* <div className='footer-container'>
-      
-      
-<section class='social-media'>
-  <div class='social-media-wrap'>
-    <div class='footer-logo'>
-    <Link to="/" className="navbar-brand "> S R </Link>
+{/* <ul className="cards__items">
+<CardItem
+  src={img19}
+  text="Spotify"
+  label="Music"
+  path="https://open.spotify.com/artist/58pA9fdnjFNTomI2G7jHLU?si=xcywhleUTKCAY_U00YRXLg"
+/>
+<CardItem
+  src={img20}
+  text="Apple Music"
+  label="Music"
+  path="https://music.apple.com/in/artist/vontell/1512201102"
+/>
+<CardItem
+  src={img21}
+  text="Youtube"
+  label="Music"
+  path="https://youtube.com/@vontellvevo3157"
+/>
 
-    </div>
-    <small class='website-rights'>Sankarsh Rajeev © 2023</small>
-    <div class='social-icons fixed-bottom'>
-      <Link
-        class='social-icon-link facebook'
-        to='/'
-        target='_blank'
-        aria-label='Facebook'
-      >
-        <i class='fab fa-facebook-f' />
-      </Link>
-      <Link
-        class='social-icon-link instagram'
-        to='/'
-        target='_blank'
-        aria-label='Instagram'
-      >
-        <i class='fab fa-instagram' />
-      </Link>
-      <Link
-        class='social-icon-link youtube'
-        to='/'
-        target='_blank'
-        aria-label='Youtube'
-      >
-        <i class='fab fa-youtube' />
-      </Link>
-      <Link
-        class='social-icon-link twitter'
-        to='/'
-        target='_blank'
-        aria-label='Twitter'
-      >
-        <i class='fab fa-twitter' />
-      </Link>
-      <Link
-        class='social-icon-link twitter'
-        to='/'
-        target='_blank'
-        aria-label='LinkedIn'
-      >
-        <i class='fab fa-linkedin' />
-      </Link>
-    </div>
-  </div>
-</section>
-</div> */}
+</ul> */}

@@ -22,7 +22,7 @@ function Contact() {
                     <textarea class="form-control" placeholder="Write your Message here" id="floatingTextarea2" ></textarea>
                    
                 </div>
-                <button type="submit" class="btn btn-primary ">Submit</button>
+                <button type="button" class="btn btn-primary">Submit</button>
             </form>
 
         </div>

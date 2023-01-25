@@ -10,7 +10,7 @@ function About() {
             <main class="hero-container">
             
                 
-                <p>Hello 👋 I'm Sankarsh Rajeev & I do
+                <p className='textonly'> Hello 👋 I'm Sankarsh Rajeev & I do
 
                     <section class="animation">
                         <div class="first"><div>Web Developement</div></div>

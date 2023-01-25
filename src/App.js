@@ -10,6 +10,8 @@ import Frontend from './components/Frontend';
 import FullStack from './components/Fullstack';
 import Cards from './components/Cards';
 import Contact from './components/pages/Contact';
+import Blog from './components/Blog';
+import Music from './components/Music';
 
 function App() {
   return (
@@ -43,7 +45,14 @@ function App() {
               path="/contact"
               element={<Contact/>}
             />
-           
+             <Route
+              path="/blog"
+              element={<Blog/>}
+            />
+           <Route
+              path="/music"
+              element={<Music/>}
+            />
 
 
         </Routes>

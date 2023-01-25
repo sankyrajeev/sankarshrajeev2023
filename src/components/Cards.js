@@ -36,9 +36,9 @@ function Cards() {
               />
               <CardItem
                 src={img4}
-                text="Artificial Intelligence"
+                text="Artificial Intelligence(UNDER CONSTRUCTION)"
                 label="AI Powered Projects"
-                path="/ai"
+                path="#"
               />
 
             </ul>
@@ -56,7 +56,7 @@ function Cards() {
                 src={img7}
                 text="Artificial Intelligence"
                 label="AI Art"
-                path="/aiart"
+                path="/blog"
               />
 
             </ul>
