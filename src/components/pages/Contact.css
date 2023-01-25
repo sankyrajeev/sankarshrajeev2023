@@ -16,7 +16,7 @@ h1{
     padding-top: 2em;;
     color: var(--textcolor);
 }
-@media screen and  (max-width: 1800px){
+@media screen and  (max-width: 2000px){
 .btn{
     margin-left:25%;
     margin-right: 0;
