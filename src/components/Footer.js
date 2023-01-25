@@ -16,46 +16,55 @@ function Footer() {
     </div>
     <small class='website-rights'>Sankarsh Rajeev © 2023</small>
     <div class='social-icons '>
-      <Link
-        class='social-icon-link facebook'
-        to='/'
+    <a
+        class='social-icon-link github'
+        href='https://www.facebook.com/sankarshrajeev'
         target='_blank'
         aria-label='Facebook'
       >
         <i class='fab fa-facebook-f' />
-      </Link>
-      <Link
+      </a>
+      
+      <a
+        class='social-icon-link facebook'
+        href='https://github.com/sankyrajeev?tab=repositories'
+        target='_blank'
+        aria-label='GitHub'
+      >
+        <i class='fab fa-github' />
+      </a>
+      <a
         class='social-icon-link instagram'
-        to='/'
+        href='https://www.instagram.com/iamvontell'
         target='_blank'
         aria-label='Instagram'
       >
         <i class='fab fa-instagram' />
-      </Link>
-      <Link
+      </a>
+      {/* <a
         class='social-icon-link youtube'
-        to='/'
+        href='/'
         target='_blank'
         aria-label='Youtube'
       >
         <i class='fab fa-youtube' />
-      </Link>
-      <Link
+      </a> */}
+      <a
         class='social-icon-link twitter'
-        to='/'
+        href='https://twitter.com/iamvontell'
         target='_blank'
         aria-label='Twitter'
       >
         <i class='fab fa-twitter' />
-      </Link>
-      <Link
+      </a>
+      <a
         class='social-icon-link twitter'
-        to='/'
+        href='https://www.linkedin.com/in/sankarsh-rajeev-5b4a5b10a/'
         target='_blank'
         aria-label='LinkedIn'
       >
         <i class='fab fa-linkedin' />
-      </Link>
+      </a>
     </div>
   </div>
 </section>
